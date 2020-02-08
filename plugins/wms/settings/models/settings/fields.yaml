@@ -1,0 +1,34 @@
+tabs:
+  fields:
+    site_name:
+      label: wms.settings::settings.fields.site_name
+      placeholder: wms.settings::settings.fields.site_name
+      span: left
+      type: text
+      tab: wms.settings::settings.tabs.main
+      order: 500
+      permissions: wms.global.settings
+    site_name_delimiter:
+      label: wms.settings::settings.fields.site_name_delimiter
+      placeholder: wms.settings::settings.fields.site_name_delimiter
+      span: auto
+      type: text
+      tab: wms.settings::settings.tabs.main
+      order: 510
+      permissions: wms.global.settings
+    privacy_policy:
+      label: wms.settings::settings.fields.privacy_policy
+      placeholder: wms.settings::settings.fields.privacy_policy
+      span: auto
+      type: mediafinder
+      tab: wms.settings::settings.tabs.main
+      order: 520
+      permissions: wms.global.settings
+    personal_data:
+      label: wms.settings::settings.fields.personal_data
+      placeholder: wms.settings::settings.fields.personal_data
+      span: auto
+      type: mediafinder
+      tab: wms.settings::settings.tabs.main
+      order: 530
+      permissions: wms.global.settings

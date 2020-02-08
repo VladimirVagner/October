@@ -1,0 +1,3 @@
+1.0.1: First version of Settings
+1.0.2: Added fix for getOriginal in Model
+1.0.3: Added filterFields event to extend model from multiple plugins

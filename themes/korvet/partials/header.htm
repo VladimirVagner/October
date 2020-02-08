@@ -1,0 +1,41 @@
+description = "Шапка сайта"
+
+[viewBag]
+==
+<header>
+        <nav class="top-menu navbar navbar-expand-lg navbar-light bg-light">
+            <img class="d-lg-none" src="/storage/{{setting('site.logo')}}" height="40px">
+            <span class="d-none d-sm-inline d-lg-none font-weight-bold">{{setting('site.title')}}</span>
+            <span class="d-none d-md-inline d-lg-none"><a href="tel:{{setting('site.phone')}}" class="text-dark">{{setting('site.phone')}}</a></span>
+            <button class="btn btn-callback d-lg-none" type="button">Обратный звонок</button>
+            <button class="navbar-toggler mr-3" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse"  id="navbarSupportedContent">
+            {{(menu('Меню сайта', 'bootstrap'))}}
+            </div>
+        </nav>
+        <div class="container-fluid bg-light pt-4 pb-4">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-6">
+                    <div class="row align-items-center justify-content-center">
+                        <div class="col-auto ml-sm-5"><img src="/storage/{{setting('site.logo')}}" height="160px"></div>
+                        <div class="col text-center">
+                            <h1 class="h2 mb-0">{{setting('site.title')}}</h1>
+                            <h2 class="h5">Адрес: {{setting('site.address')}}</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-none d-lg-block">
+                    <div class="row justify-content-end align-items-center">
+                        <div class="col-auto mr-4">
+                            <a href="tel:{{setting('site.phone')}}" class="text-dark h3">{{setting('site.phone')}}</a>
+                        </div>
+                        <div class="col-auto mr-5">
+                            <button class="btn btn-lg btn-callback" type="button">Обратный звонок</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
