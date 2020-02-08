@@ -1,12 +1,12 @@
-name: Главная
+name: 'Юридические услуги'
 items:
     -
         title: 'Трудовые споры'
-        nesting: '1'
+        nesting: '0'
         type: static-page
         code: ''
         reference: trudovye-spory
-        replace: '1'
+        replace: '0'
         viewBag:
             isHidden: '0'
             cssClass: ''

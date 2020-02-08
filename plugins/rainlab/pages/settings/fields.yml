@@ -1,6 +1,0 @@
-Настройки сайта:
-    logo_image:
-        label: Логотип
-        span: auto
-        type: mediafinder
-        cast: 1

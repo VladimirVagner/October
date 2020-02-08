@@ -1,0 +1,57 @@
+fields:
+  is_enabled:
+    label: Активный
+    type: switch
+  name:
+    label: Название
+    required: true
+  address:
+    label: Адрес
+    type: addressfinder
+    countryRestriction: 'ru'
+    fieldMap:
+      latitude: lat
+      longitude: lng
+      street: address_1
+      city: city
+      zip: zip
+      country: country
+      state: state
+#      vicinity: vicinity
+  country:
+    label: Страна
+  state:
+    label: Область
+  lat:
+    label: Широта
+    span: left
+  lng:
+   label: Долгота
+   span: right
+  address_1:
+    label: Улица
+  address_2:
+    label: Район
+  city:
+    label: Город
+  zip:
+    label: Индекс
+  phone:
+    label: Телефон
+  website:
+    label: Сайт
+    comment: Полный URL-адрес с предикатом https:// или http://
+  hours:
+    label: Дом
+    type: textarea
+    size: small
+  description:
+    label: Описание
+    type: textarea
+    size: small
+  photo:
+    label: Фото
+    type: fileupload
+    mode: image
+
+

@@ -1,0 +1,25 @@
+columns:
+  id:
+    label: ID
+  name:
+    label: Название филиала
+  address_1:
+    label: Улица
+  address_2:
+    label: Район
+  city:
+    label: Город
+  country:
+    label: Страна
+  state:
+    label: Область
+  zip:
+    label: Индекс
+  phone:
+    label: Телефон
+  hours:
+    label: Дом
+  website:
+    label: URL
+  description:
+    label: Описание

@@ -1,0 +1,33 @@
+<div data-control="toolbar">
+    <a
+        href="<?= Backend::url('ademin/storelocator/stores/create') ?>"
+        class="btn btn-primary oc-icon-plus">
+        Создать новый
+    </a>
+
+    <button
+        class="btn btn-danger oc-icon-trash-o"
+        disabled="disabled"
+        onclick="$(this).data('request-data', { checked: $('.control-list').listWidget('getChecked') })"
+        data-request="onDelete"
+        data-request-confirm="Вы уверены, что хотите удалить выбранные филиалы?"
+        data-trigger-action="enable"
+        data-trigger=".control-list input[type=checkbox]"
+        data-trigger-condition="checked"
+        data-request-success="$(this).prop('disabled', 'disabled')"
+        data-stripe-load-indicator>
+        Удалить выбранные
+    </button>
+
+    <a
+        href="<?= Backend::url('ademin/storelocator/stores/export') ?>"
+        class="btn btn-primary oc-icon-upload">
+        Экспорт
+    </a>
+
+    <a
+        href="<?= Backend::url('ademin/storelocator/stores/import') ?>"
+        class="btn btn-primary oc-icon-download">
+        Импорт
+    </a>
+</div>

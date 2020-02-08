@@ -32,3 +32,30 @@ tabs:
       tab: wms.settings::settings.tabs.main
       order: 530
       permissions: wms.global.settings
+    logo_company:
+      label: 'Логотип'
+      placeholder: wms.settings::settings.fields.privacy_policy
+      span: auto
+      type: mediafinder
+      mode: image
+      tab: wms.settings::settings.tabs.main
+      order: 540
+      permissions: wms.global.settings
+    address_company:
+      label: 'Адрес главного офиса'
+      placeholder: 'Введите адрес организации'
+      span: right
+      type: text
+      tab: wms.settings::settings.tabs.main
+      order: 550
+      permissions: wms.global.settings
+    phone_company:
+      label: 'Телефон горячей линии'
+      placeholder: 'Введите номер телефона'
+      span: right
+      type: text
+      tab: wms.settings::settings.tabs.main
+      order: 560
+      permissions: wms.global.settings
+
+

@@ -1,0 +1,22 @@
+<div class="location-map">
+  <iframe id="mapFrame" src="/map" width="100%" height="574px" scrolling=no frameborder=no allowtransparency="true"></iframe>
+  <div class="location-detail form-wrap">
+    <div class="location-detail-item red-bg">
+      <p class="small">Филиалы</p>
+      <h4>Ваш почтовый индекс</h4>
+      <input class="zip" id="zip" placeholder="03051" maxlength="8" >
+    </div>
+    <div class="location-detail-item grey-bg">
+      <h4>Места внутри</h4>
+      <select name="miles" id="radius" class="miles">
+        <option value="25">40 км</option>
+        <option value="50">80 км</option>
+        <option value="100">160 км</option>
+      </select>
+    </div>
+  </div><!-- /.location-detail -->
+</div><!-- /.location-map -->
+
+<div class="detail-wrap detail-wrap--updated">
+  <div id="locations" class="three-cols"></div>
+</div>

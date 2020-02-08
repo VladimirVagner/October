@@ -1,0 +1,20 @@
+columns:
+  is_enabled:
+    label: Активный
+    type: switch
+  name:
+    label: Название
+  address_1:
+    label: Адрес 1
+  address_2:
+    label: Адрес 2
+  city:
+    label: Город
+  state:
+    label: Область
+  zip:
+    label: Индекс
+  county:
+    label: Страна
+  phone:
+    label: Телефон
